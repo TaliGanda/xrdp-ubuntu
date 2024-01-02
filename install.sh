@@ -6,7 +6,7 @@ clear
 bash src/banner.sh
 read -p "[+] Continue ? [Y/n] : " zakurachan;
 
-if [[ $zakurachan == "Y" ]];
+if  $zakurachan == "Y" ;
 then
 	echo "[+] Installing xrdp ..."
 	sleep 3
@@ -26,7 +26,7 @@ then
 	sleep 1
 fi
 
-if [[ $zakurachan == "n" ]];
+if  $zakurachan == "n" ;
 then
 	echo "[!] Aborted ..."
 fi
